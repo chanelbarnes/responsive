@@ -1,0 +1,224 @@
+.navContainer{
+    border:solid black;
+    background-color: rgb(48, 41, 41);
+    border-width:.2px; border-radius: 30px;
+    height:8vh;
+    margin:1em;
+    display: flex;
+   }
+   
+   .navBar {
+    /* border: solid blue; */
+  
+    height: 6vh;
+    width: 170vh;
+    
+    /* display: flex; */
+    /* justify-content: space-around */
+   }
+
+
+   .navButtons {
+    /* border: solid green; */
+    height: 6vh;
+    width: 25vh;
+    display: flex;  
+    justify-content: space-between;
+   }
+
+   .top {
+    /* border: solid red; */
+    border-width:.2px;
+    height:100vh;
+    /* margin:1em; */
+    display: flex;
+   }
+
+   .topLeft{
+    /* border:solid orange; */
+    border-width:.2px;
+    height:41vh;
+    width: 45%;
+    /* margin:1em; */
+   }
+
+   .ph {
+    width:40vw; 
+    height: 100vh;
+   }
+
+   .topMiddle{
+    /* border:solid green; */
+    border-width:.2px;
+    height:100vh;
+    width: 45%;
+    /* margin:1em; */
+   }
+
+   .topRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:solid red; */
+    border-width:.2px;
+    height:100vh;
+    width: 25%;
+    /* margin:1em; */
+   }
+
+
+   
+   .middle, .middle3{
+    /* border:solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width:.2px;
+    height:100vh;
+    margin:1em;
+   }
+
+   .d-blockw-100 {
+    height: 570px;
+    width: 500px;
+   }
+
+   
+   
+   .bottom{
+        /* border:solid purple; */
+        display: flex;
+        justify-content: space-between;
+        border-width:.2px;
+        height:100vh;
+        margin:1em;
+   }
+
+   .bottomMiddle {
+        /* border: solid blue; */
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-width:.2px;
+        height:90vh;
+        margin:1em;
+        transition-duration: 3s;
+   }
+   .bottomMiddle:hover {
+        transform: rotate(360deg);
+   }
+
+.roundedfloat-start {
+    width: 25vw;
+    height: 90vh;
+}
+
+.roundedfloat-end {
+    width: 25vw;
+    height: 90vh;
+    float: right
+}
+
+.superBottom{
+    /* border:solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-width:.2px;
+    height:100vh;
+    margin:1em;
+}
+
+.sbOutdoor {
+    /* border: solid green; */
+    transition-duration: 1s;
+}
+
+.sbOutdoor:hover {
+    transform: translatey(100px)
+}
+
+.top3{
+    /* border:solid red; */
+    border-width:.2px;
+    height:50vh;
+    /* margin:1em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('IMG_0616.JPG')
+   }
+
+   .middle3{
+    /* border:solid red; */
+    border-width:.2px;
+    height:100vh;
+    /* margin:1em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   }
+
+   .contactForm {
+    border: solid blue;
+    background-color: grey;
+    color: white;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width:.2px;
+    height:80vh;
+    margin:1em;
+}
+    #message {
+        height: 100px;
+    }
+
+.contactGreet {
+    /* border: solid blue; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-width:.2px;
+    height:20vh;
+    margin:1em;
+}
+
+table, td, th {
+    border: 1px solid blue;
+  }
+
+.table {
+    height: 50vh;
+    width: 70vw;
+    border-collapse: collapse;
+}
+
+.bottom3{
+    /* border:solid purple; */
+    display: flex;
+    justify-content: space-between;
+    border-width:.2px;
+    height:70vh;
+    margin:1em;
+}
+
+.contactFooter {
+    /* border: solid green; */
+    width: 100vw;
+    height:60vh;
+}
+.IMG_4713, .IMG_4718, .IMG_4714, .IMG_4715 {
+    width: 23vw; 
+    /* height: 20px; */
+}
+
+.mb-3 {
+    color: aliceblue;
+}
